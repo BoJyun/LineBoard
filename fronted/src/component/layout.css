@@ -1,0 +1,105 @@
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-table-cell > tr > th {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.ant-table-thead > tr > th {
+  background: #2c2f31 !important;
+  color: white !important;
+  /* font-size: 12px !important; */
+}
+
+.WeatherCard {
+  /* position: relative; */
+  width: 48%;
+  /* min-height: 260px; */
+  box-shadow: 0 1px 3px 0 #999999;
+  border: 3px solid #34495e;
+  background-color: #aab7b8;
+  box-sizing: border-box;
+  float: left;
+  /* padding: 30px 15px; */
+}
+
+.Location {
+  font-size: 30px;
+  color: #212121;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+.Description {
+  font-size: 24px;
+  color: #828282;
+
+  /* margin-bottom: 30px; */
+}
+
+.CurrentWeather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* margin-bottom: 30px; */
+}
+.Temperature {
+  color: #ff3030;
+  font-size: 50px;
+  /* font-weight: 300; */
+  /* display: flex; */
+}
+
+.inputName {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.a {
+  width: 55%;
+  float: right;
+  height: 690px;
+}
+
+.b {
+  width: 45%;
+  height: 240px;
+  float: left;
+}
+
+.c {
+  width: 45%;
+  height: 450px;
+  margin-top: 10px;
+  float: left;
+}
+
+.v {
+  /* float: left; */
+  width: 80%;
+  height: 500px;
+  /* margin-top: 100px; */
+  margin-left: 10%;
+  /* margin-top: 500px; */
+}
+
+.delete {
+  color: #019bf0;
+  cursor: pointer;
+}
